@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ユーザー一覧 | Flea Market</title>
+<meta name="viewport" content="width=device-width">
+
+<link href="http://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<!-- ===== ヘッダー ===== -->
+<header class="top">
+    <div class="box1">
+        <div class="site">
+            <h1><a href="menu.html">Flea Market</a></h1>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="box2-inner">
+            <nav class="menu">
+                <ul>
+                    <li><a href="login.html">ログイン</a></li>
+                    <li><a href="menu.html">メニュー</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- ===== メイン ===== -->
+<div class="boxA">
+<main class="box3">
+
+<article class="kiji" align="center">
+    <h1>ユーザー一覧</h1>
+
+    <!-- 検索フォーム -->
+    <form action="#" method="get">
+        <input type="text" placeholder="ユーザーID検索">
+        <button type="submit">検索</button>
+        <button type="button">全件表示</button>
+    </form>
+
+    <!-- 一覧テーブル -->
+    <div class="table-area">
+        <table class="user-table" align="center">
+            <thead>
+                <tr>
+                    <th>本名</th>
+                    <th>ニックネーム</th>
+                    <th>ユーザーID</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- 仮データ -->
+                <tr>
+                    <td>山田 太郎</td>
+                    <td>たろう</td>
+                    <td><a href="#">taro123</a></td>
+                </tr>
+
+                <tr>
+                    <td>佐藤 花子</td>
+                    <td>はなちゃん</td>
+                    <td><a href="#">hana456</a></td>
+                </tr>
+
+                <tr>
+                    <td>鈴木 一郎</td>
+                    <td>いっちー</td>
+                    <td><a href="#">ichi789</a></td>
+                </tr>
+
+                <tr>
+                    <td>高橋 美咲</td>
+                    <td>みーちゃん</td>
+                    <td><a href="userDetail.html">misaki001</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</article>
+
+</main>
+</div>
+
+</body>
+</html>
