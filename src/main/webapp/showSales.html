@@ -9,6 +9,15 @@
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
+<style>
+  table {
+    background-color: #f2f2f2;
+  }
+  th {
+    background-color: lightblue;
+  }
+</style>
+
 <body>
 <!-- ===== ヘッダー ===== -->
 <header class="top">
@@ -39,6 +48,7 @@
     年 <input type="text" style="width:80px;">
     月 <input type="text" style="width:80px;">
     <button type="submit">検索</button>
+	<button type="submit">全表示</button>
 </form>
 <!-- ===== サマリー ===== -->
 <div class="sales-summary">
@@ -59,41 +69,51 @@
 <table class="sales-table">
     <thead>
         <tr>
+			<th>商品id</th>
             <th>商品名</th>
             <th>出品者</th>
             <th>価格</th>
             <th>数量</th>
             <th>売上</th>
+			<th>売却日時</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+			<td>00001</td>
             <td>スニーカー</td>
             <td>taro123</td>
             <td>¥5,000</td>
             <td>2</td>
             <td>¥10,000</td>
+			<td>2026/04/15 12:00</td>
         </tr>
         <tr>
+			<td>00002</td>
             <td>バッグ</td>
             <td>hana456</td>
             <td>¥8,000</td>
             <td>1</td>
             <td>¥8,000</td>
+			<td>2026/05/18 15:14</td>
         </tr>
         <tr>
+			<td>00003</td>
             <td>腕時計</td>
             <td>ichi789</td>
             <td>¥12,000</td>
             <td>3</td>
             <td>¥36,000</td>
+			<td>2026/05/29 8:20</td>
         </tr>
         <tr>
+			<td>00004</td>
             <td>ジャケット</td>
             <td>misaki001</td>
             <td>¥7,000</td>
             <td>2</td>
             <td>¥14,000</td>
+			<td>2026/06/21 19:00</td>
         </tr>
     </tbody>
 </table>
