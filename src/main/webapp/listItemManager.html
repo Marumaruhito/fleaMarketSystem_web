@@ -8,6 +8,32 @@
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
+<style>
+.box {
+width: 200px;
+height: 200px;
+padding: 20px;
+margin: 20px auto;
+border: solid 3px #000;
+background-color: #f0f0f0;
+text-align: center;
+border-radius: 10px; /* 角を丸くする */
+}
+
+/* 3列グリッド */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* クリック可能に */
+.box:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+</style>
+
 <body>
 <!-- ===== ヘッダー ===== -->
 <header class="top">
@@ -37,27 +63,27 @@
 <div class="item-container">
     <div class="item-grid">
         <!-- クリックで遷移 -->
-        <a href="#"><div class="item-box">商品1</div></a>
-        <a href="#"><div class="item-box">商品2</div></a>
-        <a href="#"><div class="item-box">商品3</div></a>
-        <a href="#"><div class="item-box">商品4</div></a>
-        <a href="#"><div class="item-box">商品5</div></a>
-        <a href="#"><div class="item-box">商品6</div></a>
-        <a href="#"><div class="item-box">商品7</div></a>
-        <a href="#"><div class="item-box">商品8</div></a>
-        <a href="#"><div class="item-box">商品9</div></a>
-        <a href="#"><div class="item-box">商品10</div></a>
-        <a href="#"><div class="item-box">商品11</div></a>
-        <a href="#"><div class="item-box">商品12</div></a>
-        <a href="#"><div class="item-box">商品13</div></a>
-        <a href="#"><div class="item-box">商品14</div></a>
-        <a href="#"><div class="item-box">商品15</div></a>
-        <a href="#"><div class="item-box">商品16</div></a>
-        <a href="#"><div class="item-box">商品17</div></a>
-        <a href="#"><div class="item-box">商品18</div></a>
-        <a href="#"><div class="item-box">商品19</div></a>
-        <a href="#"><div class="item-box">商品20</div></a>
-        <a href="#"><div class="item-box">商品21</div></a>
+        <a href="#"><div class="box">商品1</div></a>
+        <a href="#"><div class="box">商品2</div></a>
+        <a href="#"><div class="box">商品3</div></a>
+        <a href="#"><div class="box">商品4</div></a>
+        <a href="#"><div class="box">商品5</div></a>
+        <a href="#"><div class="box">商品6</div></a>
+        <a href="#"><div class="box">商品7</div></a>
+        <a href="#"><div class="box">商品8</div></a>
+        <a href="#"><div class="box">商品9</div></a>
+        <a href="#"><div class="box">商品10</div></a>
+        <a href="#"><div class="box">商品11</div></a>
+        <a href="#"><div class="box">商品12</div></a>
+        <a href="#"><div class="box">商品13</div></a>
+        <a href="#"><div class="box">商品14</div></a>
+        <a href="#"><div class="box">商品15</div></a>
+        <a href="#"><div class="box">商品16</div></a>
+        <a href="#"><div class="box">商品17</div></a>
+        <a href="#"><div class="box">商品18</div></a>
+        <a href="#"><div class="box">商品19</div></a>
+        <a href="#"><div class="box">商品20</div></a>
+        <a href="#"><div class="box">商品21</div></a>
     </div>
 </div>
 </article>
