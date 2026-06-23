@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<title>取引情報</title>
+	<title>ユーザー詳細</title>
 	<meta name="viewport" content="width=device-width">
 
 	<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
@@ -35,30 +35,69 @@
 
 	
 	<!-- 本体部分 -->
-	<table border="1" style="border-collapse:collapse; border-color:black; margin:auto; margin-top:50px; padding:20px;">
+	<table style="margin-top:20px; text-align:center;">
+		<h1 style="text-align:center;">ユーザー詳細</h1>
+	</table>
+	
+	<table border="1" style="border-collapse:collapse; border-color:black; margin:auto; margin-top:30px;">
 		<tr>
-			<td style="background-color: aquamarine; width:140px; height:50px;">ユーザーID</td>
-			<td style="width:300px; height:50px;">0001</td>
+			<td style="background-color: aquamarine; width:140px; height:50px; text-align:center;">ユーザーID</td>
+			<td style="width:300px; height:50px; padding:10px;">0001</td>
 		</tr>
 		<tr>
-			<td style="background-color: aquamarine; width:140px; height:50px;">ニックネーム</td>
-			<td style="width:300px; height:50px;">ウサギ</td>
+			<td style="background-color: aquamarine; width:140px; height:50px; padding:auto; text-align:center;">ニックネーム</td>
+			<td style="width:300px; height:50px; padding:10px;">ウサギ</td>
 		</tr>
 		<tr>
-			<td style="background-color: aquamarine; width:140px; height:50px;">本名</td>
-			<td style="width:300px; height:50px;">山田花子</td>
+			<td style="background-color: aquamarine; width:140px; height:50px; padding:auto; text-align:center;">本名</td>
+			<td style="width:300px; height:50px; padding:10px;">山田花子</td>
 		</tr>
 		<tr>
-			<td style="background-color: aquamarine;width:140px; height:50px;">住所</td>
-			<td style="width:300px; height:50px;">東京都千代田区外神田21-33</td>
+			<td style="background-color:aquamarine; width:140px; height:50px; padding:auto; text-align:center;">郵便番号</td>
+			<td style="width:300px; height:50px; padding:10px;">000-0000</td>
 		</tr>
 		<tr>
-			<td style="background-color: aquamarine;width:140px; height:50px;">メールアドレス</td>
-			<td style="width:300px; height:50px;">freeMarketService@mail.co.jp</td>
+			<td style="background-color: aquamarine;width:140px; height:50px; padding:auto; text-align:center;">住所</td>
+			<td style="width:300px; height:50px; padding:10px;">東京都千代田区外神田21-33</td>
 		</tr>
 		<tr>
-			<td style="background-color: aquamarine;width:140px; height:50px;">ステータス</td>
-			<td style="width:300px; height:50px;">出品者</td>
+			<td style="background-color: aquamarine; height:50px; padding:auto; text-align:center;">メールアドレス</td>
+			<td style="width:300px; height:50px; padding:10px;">freeMarketService@mail.co.jp</td>
+		</tr>
+		<tr>
+			<td style="background-color: aquamarine;width:140px; height:50px; padding:auto; text-align:center;">ステータス</td>
+			<td style="width:300px; height:50px; padding:10px;">出品者</td>
+		</tr>
+		<tr>
+			<td style="background-color:aquamarine; width:140px; heicht:50px; padding:auto; text-align:center; ">権限</td>
+			<td style="width:300px; height:50px; padding:10px;">一般ユーザー</td>
+		</tr>
+		<tr>
+			<td style="background-color:aquamarine; width:140px; height:50px; padding:10px; text-align:center;">アカウント作成日</td>
+			<td style="width:300px; height:50px; padding:10px;">2026/06/01</td>
 		</tr>
 	</table>
+	<!-- cssに以下を記述
+		
+		. userDitail-table {
+			border="1";
+			border-collapse:collapse;
+			border-color:black;
+			margin: 30px auto;
+		}
+		
+		.cellA td {
+			background-color: ;
+			width:140px;
+			height:50px;
+			padding:10px;
+			text-align:center;
+		}
+		. cellB td{
+			width:300px;
+			height:50px;
+			padding:10px;
+		}
+		
+	-->
 </body>
